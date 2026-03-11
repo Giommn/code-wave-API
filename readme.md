@@ -1,12 +1,12 @@
 <div align="center">
 
-## API 1º Semestre DSM - 2025
+## API 2º Semestre DSM - 2026
 
 </div>
 
 <div align="center">
   
-### Projeto de Análise de Censo em São José dos Campos
+### Projeto de Cadastro de Normas Técnicas Aeronáuticas - Akaer
 
 </div>
 
@@ -16,13 +16,14 @@
 </p>
 
 <h1 align="center">
- <a href="https://docs.python.org/3/"><img src = "https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/></a>
- <a href="https://www.w3schools.com/tags/tag_doctype.asp"><img src = "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a>
- <a href="https://www.w3schools.com/css/"><img src = "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/></a>
- <a href="https://flask.palletsprojects.com/en/2.2.x/"><img src = "https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white"/></a>
- <a href="https://www.mysql.com/"><img src = "https://img.shields.io/badge/MySQL-%234479A1?style=for-the-badge"/></a>
- <a href="https://pandas.pydata.org/"><img src = "https://img.shields.io/badge/pandas-%23150458?style=for-the-badge&logo=pandas"/></a>
- <a href= "https://www.figma.com/pt-br/"><img src="https://img.shields.io/badge/FIGMA-%23F24E1E?style=for-the-badge&logo=figma&logoColor=black"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black"/></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/></a>
+  <a href="https://www.prisma.io/"><img src="https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white"/></a>
+  <a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"/></a>
 </h1>
 
 <p align="center">
@@ -40,22 +41,27 @@
 
 <br>
 
-> Status do Projeto: Em andamento! :hourglass_flowing_sand:
+> Status do Projeto: Em andamento Sprint 1! :hourglass_flowing_sand:
 
 </br>
 
-
-
-
-
-| ID | Prioridade | História de Usuário | Estimativa | Sprint | Status |
+## 📋 Sprint 1 - Requisitos
+| ID | Prioridade | User Story | Estimativa | Sprint | Status |
 |:---|:---|:---|:---:|:---:|:---|
-| <mark style="background-color: #d4edda">1</mark> | <mark style="background-color: #d4edda">Alta</mark> | <mark style="background-color: #d4edda">Como Administrador, quero cadastrar um novo projetista/administrador no sistema (inserindo nome e e-mail), para que ele possa ter acesso às funcionalidades da plataforma.</mark> | <mark style="background-color: #d4edda">-</mark> | <mark style="background-color: #d4edda">Sprint 1</mark> | <mark style="background-color: #d4edda">Fazer</mark> |
-| 2 | Alta | Como Administrador ou Projetista, quero realizar login informando meu email e senha para acessar o sistema. | - | Sprint 1 | Fazer |
-| <mark style="background-color: #d4edda">3</mark> | <mark style="background-color: #d4edda">Alta</mark> | <mark style="background-color: #d4edda">Como Administrador, quero cadastrar/editar normas (emitente, título, data) técnicas, para que os requisitos normativos sejam devidamente registrados.</mark> | <mark style="background-color: #d4edda">-</mark> | <mark style="background-color: #d4edda">Sprint 1</mark> | <mark style="background-color: #d4edda">Fazer</mark> |
-| 4 | Alta | Como Administrador, quero adicionar/editar requisitos a uma norma, para que informações complementares fiquem registradas no sistema. | - | Sprint 1 | Fazer |
-| 5 | Alta | Como Administrador, quero filtrar as normas técnicas por órgão, categoria e palavra-chave, para que eu possa agilizar o processo de busca. | - | Sprint 2 | A fazer |
-| 6 | Média | Como Administrador, quero ver todos os projetistas cadastrados no site, para ter controle sobre a plataforma. | - | Sprint 2 | A fazer |
-| 7 | Média | Como Projetista ou Administrador, quero adicionar interpretação técnica a uma norma/requisito para documentar análises. | - | Sprint 2 | A fazer |
-| 8 | Baixa | *[História não preenchida]* | - | Sprint 3 | - |
-| 9 | Alta | Como Administrador, quero ver histórico de alterações nos requisitos para rastreabilidade. | - | Sprint 3 | - |
+| $\color{green}{\text{1}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Administrador,}}$ $\color{green}{\text{quero cadastrar um novo}}$ $\color{green}{\text{projetista/administrador}}$ $\color{green}{\text{no sistema}}$ $\color{green}{\text{(inserindo nome e e-mail),}}$ $\color{green}{\text{para que ele possa ter acesso}}$ $\color{green}{\text{às funcionalidades da plataforma}}$ | $\color{green}{\text{11}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
+| $\color{green}{\text{2}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Administrador,}}$ $\color{green}{\text{quero cadastrar/editar}}$ $\color{green}{\text{normas (emitente, título, data)}}$ $\color{green}{\text{técnicas,}}$ $\color{green}{\text{para permitir}}$ $\color{green}{\text{melhor visualização}}$ | $\color{green}{\text{11}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
+| 3 | Alta | **Como Administrador**, quero adicionar/editar requisitos a uma norma, para que informações complementares fiquem registradas no sistema. | 13 | 2 | ⌛ |
+| $\color{green}{\text{4}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Administrador}}$ $\color{green}{\text{ou Projetista,}}$ $\color{green}{\text{quero realizar login}}$ $\color{green}{\text{informando meu email}}$ $\color{green}{\text{e senha para acessar}}$ $\color{green}{\text{o sistema.}}$ | $\color{green}{\text{8}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
+
+### 📋 Product Backlog - User Stories
+
+| ID | Prioridade | User Story | Estimativa | Sprint | Status |
+| :--- | :--- | :--- | :---: | :---: | :---: |
+| 1 | Alta | **Como Administrador**, quero cadastrar um novo projetista/administrador no sistema (inserindo nome e e-mail), para que ele possa ter acesso às funcionalidades da plataforma. | 11 | 1 | ⌛ |
+| 2 | Alta | **Como Administrador**, quero cadastrar/editar normas (emitente, título, data) técnicas, para permitir melhor visualização. | 11 | 1 | ⌛ |
+| 3 | Alta | **Como Administrador**, quero adicionar/editar requisitos a uma norma, para que informações complementares fiquem registradas no sistema. | 13 | 2 | ⌛ |
+| 4 | Alta | **Como Administrador ou Projetista**, quero realizar login informando meu email e senha para acessar o sistema. | 8 | 1 | ⌛ |
+| 5 | Alta | **Como Administrador**, quero filtrar as normas técnicas por órgão, categoria e palavra-chave, para que eu possa agilizar o processo de busca. | 8 | 2 | ⌛ |
+| 6 | Média | **Como Administrador**, quero ver todos os projetistas cadastrados no site, para ter controle sobre a plataforma. | 8 | 1 | ⌛ |
+| 7 | Alta | **Como Administrador**, quero adicionar notas técnicas a um requisito para documentar análises. | 8 | 3 | ⌛ |
+| 8 | Média | **Como Administrador**, quero ver histórico de alterações nos requisitos para rastreabilidade. | 8 | 3 | ⌛ |
