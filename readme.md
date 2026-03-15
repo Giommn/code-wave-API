@@ -64,6 +64,33 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 
 :black_small_square: Documentação Técnica: Entregar manuais de instalação e do usuário, além da documentação da API e modelagem do banco de dados.
 
+## Tipos de Commits
+| Tipo | Descrição |
+|------|-----------|
+| **feat** | Adição de um novo recurso ou funcionalidade |
+| **fix** | Correção de um bug |
+| **docs** | Atualização de documentação |
+| **style** | Mudanças de formatação, sem afetar o código |
+| **refactor** | Refatoração do código, sem alterar funcionalidade |
+| **test** | Adiciona ou modifica testes |
+| **chore** | Atualizações menores que não impactam diretamente a funcionalidade do código |
+
+## Componentes
+
+### `<tipo>`
+Identifica a natureza da mudança realizada no commit. Deve ser um dos tipos listados acima.
+
+### `<id_demandaN>`
+Identificador da demanda criada na ferramenta de gestão de Stories/Tasks que o Time estiver usando:
+- GitHub Issues
+- Jira Software
+- GitLab Issues
+- Outras ferramentas similares
+
+Pode estar entre 1 e N, separados por vírgula quando houver múltiplos IDs.
+
+### `<descrição da entrega feita no commit>`
+Descrição clara sobre o que está sendo entregue no commit criado e enviado para o Git.
 
 ## 💡 MVP (Produto Mínimo Viável) <a id="mvp"></a>
   <details>
@@ -101,13 +128,13 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 | $\color{green}{\text{4}}$ | $\color{green}{\text{Alta}}$ | $\color{green}{\text{Como Analista de Qualidade,}}$ $\color{green}{\text{quero realizar login}}$ $\color{green}{\text{informando meu email}}$ $\color{green}{\text{e senha para acessar}}$ $\color{green}{\text{o sistema.}}$ | $\color{green}{\text{8}}$ | $\color{green}{\text{1}}$ | $\color{green}{\text{⌛}}$ |
 
 ## 📊 Escala de Estimativa de Esforço
+ Pontuação | Significado | Estimativa | 
+|:---:|:---|:---:|
+| **1-5** | Muito Pequeno | Até 3 dias |
+| **6-10** | Médio | Até 5 dias | 
+| **11-15** | Grande | Até 10 dias | 
+| **16-20** | Muito Grande | Até 15 dias|
 
-| Pontuação | Significado |
-|:---:|:---|
-| 1-5 | Muito Pequeno |
-| 6-10 | Médio |
-| 11-15 | Grande |
-| 16-20 | Muito Grande |
 
 ## 📋 Product Backlog - User Stories
 
