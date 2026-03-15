@@ -63,6 +63,19 @@ AAKAER solicitou o desenvolvimento de uma solução capaz de fornecer uma base t
 :black_small_square: Interoperabilidade: Estabelecer um conjunto de regras que permita a comunicação entre diferentes sistemas.
 
 :black_small_square: Documentação Técnica: Entregar manuais de instalação e do usuário, além da documentação da API e modelagem do banco de dados.
+# Estratégia de Branches
+
+| Regra | Descrição |
+|:------|:----------|
+| **main sempre estável** | Código pronto para produção |
+| **feature/<id>-desc** | Padrão de nome para branches |
+| **sem commit direto** | Nada commitado direto na `main` |
+| **PR obrigatório** | Toda mudança passa por Pull Request |
+| **revisão obrigatória** | Mínimo 1 approval antes do merge |
+| **delete após merge** | Branch de feature é deletada depois de mergeada |
+| **tag na main** | Todo merge na `main` recebe tag de versão |
+| **hotfix da main** | Correção crítica começa da `main` |
+| **--no-ff opcional** | Pode usar squash ou rebase |
 
 ## Tipos de Commits
 | Tipo | Descrição |
